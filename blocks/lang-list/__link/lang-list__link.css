@@ -1,0 +1,5 @@
+.lang-list__link {
+  text-decoration: none;
+  
+  color: var(--text-color-white);
+}

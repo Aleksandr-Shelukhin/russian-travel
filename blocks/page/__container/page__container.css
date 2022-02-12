@@ -1,0 +1,24 @@
+.page__container {
+  margin: 0 auto;
+  padding: 0 48px;
+
+  width: 100%;
+  max-width: 1280px;
+
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+@media screen and (max-width: 768px) {
+  .page__container {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .page__container {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+}

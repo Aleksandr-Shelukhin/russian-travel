@@ -1,0 +1,22 @@
+.lead__figurec {
+  margin-top: 65px;
+}
+
+@media screen and (max-width: 1279px) {
+  .lead__figurec {
+    margin-top: 55px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .lead__figurec {
+    margin-left: -24px;
+    margin-right: -24px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .lead__figurec {
+    margin-top: 40px;
+  }
+}

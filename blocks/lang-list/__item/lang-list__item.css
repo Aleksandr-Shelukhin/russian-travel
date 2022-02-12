@@ -1,0 +1,25 @@
+.lang-list__item {
+  margin-right: 18px;
+
+  color: var(--text-color-white);
+  font-family: 'Inter';
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 1.2;
+  text-transform: capitalize;
+  -webkit-text-size-adjust: 100%;
+     -moz-text-size-adjust: 100%;
+      -ms-text-size-adjust: 100%;
+          text-size-adjust: 100%;
+}
+
+.lang-list__item:nth-of-type(2n) {
+  margin-right: 0;
+}
+
+
+@media screen and (max-width: 540px) {
+  .lang-list__item {
+    font-size: 18px;
+  }
+}
