@@ -25,7 +25,15 @@
           <h1 class="lead__title">Путешествия по России</h1>
           <p class="lead__subtitle">Настоящая страна не в выпусках новостей, а здесь.</p>
           <figure class="lead__figure">
-            <img class="lead__image" src="./images/lead-polka-m.jpg" alt="Фото лежащего, в поезде, человека перед окном ">
+            <picture>
+              <source srcset="./images/lead-polka-m.jpg, ./images/lead-polka-lg.jpg 2x" media="(min-width: 767px)">
+              <source srcset="./images/lead-polka-sm.jpg, ./images/lead-polka-m.jpg 2x">
+              <img class="lead__image" srcset="./images/lead-polka-sm.jpg, ./images/lead-polka-m.jpg 2x" alt="Фото лежащего, в поезде, человека перед окном ">
+            </picture>
+            <!-- <picture>
+              <source srcset="./images/lead-polka-m.jpg, ./images/lead-polka-lg.jpg 2x" media="(min-width: 767px)">
+              <img class="lead__image" src="./images/lead-polka-sm.jpg" srcset="./images/lead-polka-m.jpg 2x" alt="Фото лежащего, в поезде, человека перед окном ">
+            </picture> -->
             <figcaption class="lead__caption">ваша полка — верхняя</figcaption>
           </figure>
         </section>
@@ -44,6 +52,47 @@
           </ul>
         </section>
         <!-- Intro END -->
+
+        <!-- Photo grid START -->
+        <section class="photo-grid">
+          <figure class="photo-grid__item">
+            <img class="photo-grid__image" src="./images/photo-grid/photo-grid-train.jpg" alt="Вид из окна поезда">
+          </figure>
+            <figure class="photo-grid__item">
+              <img class="photo-grid__image" src="./images/photo-grid/photo-grid-atharva-tulsi.jpg" alt="Горы вид из самолета">
+            </figure>
+            <figure class="photo-grid__item">
+              <img class="photo-grid__image" src="./images/photo-grid/photo-grid-tuman.jpg" alt="Поле в тумане">
+            </figure>
+            <figure class="photo-grid__item">
+              <img class="photo-grid__image" src="./images/photo-grid/photo-grid-sochi.jpg" alt="Лес в тумане">
+            </figure>
+            <figure class="photo-grid__item">
+              <img class="photo-grid__image" src="./images/photo-grid/photo-grid-arisa.jpg" alt="Шасси самолета в небе">
+            </figure>
+            <figure class="photo-grid__item">
+              <img class="photo-grid__image" src="./images/photo-grid/photo-grid-baikal.jpg" alt="Берег байкала">
+            </figure>
+            <figure class="photo-grid__item">
+              <img class="photo-grid__image" src="./images/photo-grid/photo-grid-elbrus.jpg" alt="Эльбрус">
+            </figure>
+            <figure class="photo-grid__item">
+              <img class="photo-grid__image" src="./images/photo-grid/photo-grid-kondratiev.jpg" alt="Знак Пешеходный переход">
+            </figure>
+            <figure class="photo-grid__item">
+              <img class="photo-grid__image" src="./images/photo-grid/photo-grid-kamchatka-1.jpg" alt="Камчатские горы с высоты птичьего полета">
+            </figure>
+            <figure class="photo-grid__item">
+              <img class="photo-grid__image" src="./images/photo-grid/photo-grid-kamchatka-2.jpg" alt="Пейзаж горы Камчатки">
+            </figure>
+            <figure class="photo-grid__item">
+              <img class="photo-grid__image" src="./images/photo-grid/photo-grid-baikal-2.jpg" alt="Берег байкала">
+            </figure>
+            <figure class="photo-grid__item">
+              <img class="photo-grid__image" src="./images/photo-grid/photo-grid-ergaki.jpg" alt="Горы в тумане">
+            </figure>
+        </section>
+        <!-- Photo grid END -->
       </main>
 
     </div>

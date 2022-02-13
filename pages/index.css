@@ -31,3 +31,9 @@
 @import  url(../blocks/intro/__list/intro__list.css);
 @import  url(../blocks/intro/__item/intro__item.css);
 @import  url(../blocks/intro/__span-accent/intro__span-accent.css);
+
+/* Photo-grid
+=====================================*/
+@import  url(../blocks/photo-grid/photo-grid.css);
+@import  url(../blocks/photo-grid/__item/photo-grid__item.css);
+@import  url(../blocks/photo-grid/__image/photo-grid__image.css);
