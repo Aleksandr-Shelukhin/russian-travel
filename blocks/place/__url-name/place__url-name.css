@@ -1,0 +1,15 @@
+.place__url-name {
+  margin: 0;
+  margin-bottom: 12px;
+
+  font-family: 'inter';
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1;
+  text-transform: uppercase;
+  color: var(--text-color-grey);
+  -webkit-text-size-adjust: 100%;
+     -moz-text-size-adjust: 100%;
+      -ms-text-size-adjust: 100%;
+          text-size-adjust: 100%;
+}
