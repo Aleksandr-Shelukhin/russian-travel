@@ -3,7 +3,7 @@
 
   grid-area: title;
 
-  font-family: 'inter';
+  font-family: 'Inter', 'Arial', 'Helvetica', sans-serif;
   font-size: 72px;
   font-weight: 900;
   line-height: 1.05;
