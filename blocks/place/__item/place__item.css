@@ -11,6 +11,10 @@
   "image description";
 }
 
+.place__item:last-child {
+  margin-bottom: 0;
+}
+
 @media screen and (max-width: 540px) {
   .place__item {
     grid-template-columns: 1fr;
