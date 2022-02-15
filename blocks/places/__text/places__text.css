@@ -1,4 +1,4 @@
-.place__text {
+.places__text {
   margin: 0;
   margin-bottom: 30px;
 
@@ -13,12 +13,12 @@
           text-size-adjust: 100%;
 }
 
-.place__text:last-child {
+.places__text:last-child {
   margin-bottom: 0;
 }
 
 @media screen and (max-width: 768px) {
-  .place__text {
+  .places__text {
     font-size: 16px;
   }
 }

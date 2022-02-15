@@ -11,8 +11,7 @@
 
 @media screen and (max-width: 768px) {
   .lead__figure {
-    margin-left: -24px;
-    margin-right: -24px;
+    width: 100%;;
   }
 }
 

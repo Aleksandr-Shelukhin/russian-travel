@@ -1,5 +1,5 @@
-.lang-list__link {
+.header__lang-link {
   text-decoration: none;
-  
+
   color: var(--text-color-white);
 }

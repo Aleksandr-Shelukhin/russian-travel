@@ -1,5 +1,11 @@
 .header {
-  min-height: 80px;
+  padding: 26px 48px 0;
+
+  width: 100%;
+  max-width: 1280px;
+
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 
   display: -webkit-box;
   display: -ms-flexbox;
@@ -14,8 +20,15 @@
 
 }
 
+@media screen and (max-width: 768px) {
+  .header {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+}
+
 @media screen and (max-width: 320px) {
   .header {
-    height: 60px;
+    padding: 15px 16px 0;
   }
 }

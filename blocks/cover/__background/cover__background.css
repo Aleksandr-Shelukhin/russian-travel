@@ -24,6 +24,8 @@
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
+
+  text-decoration: none;
 }
 
 .cover__background::before {
@@ -56,9 +58,6 @@
 
 @media screen and (max-width: 1279px) {
   .cover__background{
-    margin-left: -48px;
-    margin-right: -48px;
-
     min-height: 640px;
   }
 }

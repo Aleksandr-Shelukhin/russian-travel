@@ -3,16 +3,16 @@
 @import  url(../blocks/root/root.css);
 
 @import  url(../blocks/page/page.css);
-@import  url(../blocks/page/__container/page__container.css);
+@import  url(../blocks/content/content.css);
 
 /* Header
 =====================================*/
 @import  url(../blocks/header/header.css);
-@import  url(../blocks/logo/logo.css);
-@import  url(../blocks/lang-list/lang-list.css);
-@import  url(../blocks/lang-list/__item/lang-list__item.css);
-@import  url(../blocks/lang-list/__link/lang-list__link.css);
-@import  url(../blocks/lang-list/__link/_active/lang-list__link_active.css);
+@import  url(../blocks/header/__logo/header__logo.css);
+@import  url(../blocks/header/__lang-list/header__lang-list.css);
+@import  url(../blocks/header/__lang-item/header__lang-item.css);
+@import  url(../blocks/header/__lang-link/header__lang-link.css);
+@import  url(../blocks/header/__lang-link/_active/header__lang-link_active.css);
 
 /* Lead
 =====================================*/
@@ -41,15 +41,15 @@
 /* Places
 =====================================*/
 @import  url(../blocks/places/places.css);
-@import  url(../blocks/place/place.css);
-@import  url(../blocks/place/__item/place__item.css);
-@import  url(../blocks/place/__title/place__title.css);
-@import  url(../blocks/place/__website/place__website.css);
-@import  url(../blocks/place/__url-name/place__url-name.css);
-@import  url(../blocks/place/__link/place__link.css);
-@import  url(../blocks/place/__image/place__image.css);
-@import  url(../blocks/place/__description/place__description.css);
-@import  url(../blocks/place/__text/place__text.css);
+@import  url(../blocks/places/__list/places__list.css);
+@import  url(../blocks/places/__item/places__item.css);
+@import  url(../blocks/places/__title/places__title.css);
+@import  url(../blocks/places/__website/places__website.css);
+@import  url(../blocks/places/__url-name/places__url-name.css);
+@import  url(../blocks/places/__link/places__link.css);
+@import  url(../blocks/places/__image/places__image.css);
+@import  url(../blocks/places/__description/places__description.css);
+@import  url(../blocks/places/__text/places__text.css);
 
 /* Cover
 =====================================*/

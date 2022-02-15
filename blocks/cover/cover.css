@@ -1,18 +1,23 @@
 .cover {
-  padding: 50px 0;
+  padding: 55px 48px 50px;
+
+  width: 100%;
+  max-width: 1280px;
 
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
   .cover {
-    padding-top: 54px;
+    padding-top: 60px;
+    padding-left: 0;
+    padding-right: 0;
   }
 }
 
 @media screen and (max-width: 320px) {
   .cover {
-    padding-top: 28px;
+    padding-top: 40px;
   }
 }

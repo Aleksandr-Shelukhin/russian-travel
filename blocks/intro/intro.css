@@ -1,5 +1,8 @@
 .intro {
-  padding: 45px 100px;
+  padding: 40px 148px;
+
+  width: 100%;
+  max-width: 1280px;
 
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -7,20 +10,29 @@
 
 @media screen and (max-width: 1279px) {
   .intro {
-    padding-left: 0;
-    padding-right: 0;
+    padding-left: 48px;
+    padding-right: 48px;
   }
 }
 
 @media screen and (max-width: 1023px) {
   .intro {
     padding-top: 37px;
-  } 
+  }
 }
 
-@media screen and (max-width: 540px) {
+@media screen and (max-width: 768px) {
+  .intro {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+}
+
+@media screen and (max-width: 320px) {
   .intro {
     padding-top: 13px;
+    padding-left: 16px;
+    padding-right: 16px;
   }
 }
 

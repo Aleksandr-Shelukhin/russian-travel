@@ -1,5 +1,8 @@
 .places {
-  padding: 40px 100px;
+  padding: 30px 148px;
+
+  width: 100%;
+  max-width: 1280px;
 
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
@@ -7,8 +10,17 @@
 
 @media screen and (max-width: 1024px) {
   .places {
-    padding-left: 0;
-    padding-right: 0;
+    padding-top: 30px;
+    padding-left: 48px;
+    padding-right: 48px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .places {
+    padding-top: 45px;
+    padding-left: 24px;
+    padding-right: 24px;
   }
 }
 
@@ -17,3 +29,12 @@
     padding-top: 12px;
   }
 }
+
+@media screen and (max-width: 320px) {
+  .places {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+

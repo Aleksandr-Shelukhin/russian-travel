@@ -1,4 +1,4 @@
-.lang-list__item {
+.header__lang-item {
   margin-right: 18px;
 
   color: var(--text-color-white);
@@ -13,13 +13,13 @@
   text-size-adjust: 100%;
 }
 
-.lang-list__item:nth-of-type(2n) {
+.header__lang-item:nth-of-type(2n) {
   margin-right: 0;
 }
 
 
 @media screen and (max-width: 540px) {
-  .lang-list__item {
+  .header__lang-item {
     font-size: 18px;
   }
 }
