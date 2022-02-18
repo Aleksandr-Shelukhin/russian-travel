@@ -1,16 +1,7 @@
 .places__item {
   margin-bottom: 80px;
 
-  display: -ms-grid;
-  display: grid;
-  grid-template-columns: repeat(2, 2fr);
-  grid-template-rows: minmax(min-content, max-content);
-  gap: 46px 13px;
-  grid-template-areas:
-  "title website"
-  "image description";
 }
-
 .places__item:last-child {
   margin-bottom: 0;
 }
@@ -28,19 +19,6 @@
 
 @media screen and (max-width: 540px) {
   .places__item {
-    grid-template-columns: 1fr;
-    grid-template-areas:
-    "title"
-    "website"
-    "image"
-    "description";
-  }
-}
-
-@media screen and (max-width: 540px) {
-  .places__item {
-    row-gap: 32px;
-
     margin-bottom: 50px;
   }
 }
